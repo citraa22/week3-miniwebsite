@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Student Profile</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <h-1 class="title">My Profile</h-1>
+            <nav>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#schedule" class="nav-link">Schedule</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hello! My name is <strong>Jane Doe</strong>. I love <em>web development</em> and learning new technologies.</p>
+                 <img src="https://via.placeholder.com/200" alt="Jane smiling" width="200" class="profile-pic" id="main-photo">
+            </section>
+
+             <section id="skills">
+      <h2>My Skills</h2>
+      <ul class="skills-list">
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <section id="schedule">
+      <h2>Weekly Schedule</h2>
+      <table class="schedule-table">
+        <tr>
+          <th>Day</th>
+          <th>Activity</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>Web Development Class</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Study Group</td>
+        </tr>
+      </table>
+    </section>
+
+    <div class="box-demo">
+      <p>This is inside a styled box demonstrating margin, padding and border.</p>
+    </div>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+  <footer id="main-footer">
+    <p>© 2025 Jane Doe</p>
+  </footer>
+        </main>
+    </body>
+</html>
